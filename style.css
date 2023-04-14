@@ -1,0 +1,41 @@
+*{
+    padding: 0;
+    margin: 0;
+    /* box-sizing: border-box;  */
+}
+
+h1{
+    text-align: center;
+    margin: auto;
+}
+
+form {
+    padding: 10px;
+    text-align: center;
+    width: 30%;
+    height: 300px;
+    background-color: rgb(113, 173, 173);
+    margin: auto;
+}
+
+form ul {
+    list-style-type: none;
+}
+
+.primeiro {
+    font-size: 25;
+    padding: 10px;
+}
+
+#operacao{
+    margin-top: 10px;
+}
+
+.valores{
+    font-size: 20;
+}
+
+.segundo{
+    padding: 10;
+    font-size: 25px;
+}

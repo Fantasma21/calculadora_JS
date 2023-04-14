@@ -1,0 +1,40 @@
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculadora com Dom JS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>CALCULADORA</h1>
+    <form action="">
+        <ul>
+            <li class="primeiro"><label for="valor1">Primeiro valor <br>  </label>
+                <input type="text" id="valor">
+            </li>
+            <li class="valores"><label for="operacao">Escolha a operação aritmética</label> <br>
+                <select id="operacao">
+                    <option value="+">+(adição)</option>
+                    <option value="-">-(subtração)</option>
+                    <option value="*">*(multiplicação)</option>
+                    <option value="/">/(divisão)</option>
+                </select> 
+                <label for=""></label>
+            </li>
+            <li class="segundo">
+                <label  for="valor2">Segundo valor <br> </label>
+                <input type="text" id="valor2">
+            </li>
+        </ul>
+        <input type="button" onclick="" value="Calcular">
+        <input type="button" onclick="" value="Limpar os valores">
+    </form>
+    <p id="saida"></p>
+</body>
+
+<script src="script.js"></script>
+
+</html>

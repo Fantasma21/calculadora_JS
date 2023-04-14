@@ -13,7 +13,7 @@
     <form action="">
         <ul>
             <li class="primeiro"><label for="valor1">Primeiro valor <br>  </label>
-                <input type="text" id="valor">
+                <input type="text" id="valor1">
             </li>
             <li class="valores"><label for="operacao">Escolha a operação aritmética</label> <br>
                 <select id="operacao">
@@ -29,10 +29,11 @@
                 <input type="text" id="valor2">
             </li>
         </ul>
-        <input type="button" onclick="" value="Calcular">
-        <input type="button" onclick="" value="Limpar os valores">
+        <input type="button" onclick="Calcular('valor1','valor2','operacao','saida')" value="Calcular">
+        <input type="button" onclick="Limpar('valor1','valor2')" value="Limpar os valores">
+        <p id="saida"></p>
     </form>
-    <p id="saida"></p>
+    
 </body>
 
 <script src="script.js"></script>

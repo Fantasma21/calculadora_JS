@@ -10,21 +10,24 @@ h1{
 }
 
 form {
-    padding: 10px;
     text-align: center;
-    width: 30%;
+    width: 80%; /* largura para 80% em telas maiores */
+    max-width: 500px; /* Defina a largura máxima para 500 pixels */
     height: 300px;
     background-color: rgb(113, 173, 173);
     margin: auto;
+    border-radius: 5%;
 }
 
 form ul {
     list-style-type: none;
+    
 }
 
 .primeiro {
     font-size: 25;
     padding: 10px;
+    
 }
 
 #operacao{
@@ -39,3 +42,17 @@ form ul {
     padding: 10;
     font-size: 25px;
 }
+
+#saida{
+    color: red;
+    text-align: center;
+    font-size: 30px;
+    padding: 15px;
+}
+
+/* media query para ajustar o layout em telas menores */
+@media screen and (max-width: 768px) {
+    form {
+      width: 90%; /* largura para 90% em telas menores */
+    }
+  }

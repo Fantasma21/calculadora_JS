@@ -12,7 +12,7 @@
     <h1>CALCULADORA</h1>
     <form action="">
         <ul>
-            <li class="primeiro"><label for="valor1">Primeiro valor <br>  </label>
+            <li class="primeiro"><label for="valor1">Primeiro valor <br> </label>
                 <input type="text" id="valor1">
             </li>
             <li class="valores"><label for="operacao">Escolha a operação aritmética</label> <br>
@@ -21,19 +21,22 @@
                     <option value="-">-(subtração)</option>
                     <option value="*">*(multiplicação)</option>
                     <option value="/">/(divisão)</option>
-                </select> 
+                </select>
                 <label for=""></label>
             </li>
             <li class="segundo">
-                <label  for="valor2">Segundo valor <br> </label>
+                <label for="valor2">Segundo valor <br> </label>
                 <input type="text" id="valor2">
             </li>
         </ul>
         <input type="button" onclick="Calcular('valor1','valor2','operacao','saida')" value="Calcular">
         <input type="button" onclick="Limpar('valor1','valor2')" value="Limpar os valores">
-        <p id="saida"></p>
+        <p id="saida"></p> 
+        <div class="footer">
+            <p class="cop"> &#169; Emanuel Albuquerque</p>
+        </div> <!--footer-->
     </form>
-    
+
 </body>
 
 <script src="script.js"></script>

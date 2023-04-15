@@ -49,7 +49,7 @@ form ul {
 
 }
 
-@media screen and (max-width: 667px) { /* smartphone landscap */
+@media screen and (min-width: 667px) { /* smartphone landscap */
   
     #saida {
         margin-top: 20px;
@@ -57,16 +57,9 @@ form ul {
         font-size: 30px;
     }
 
-    .cop {
-        color: rgba(78, 84, 97, 0.822);
-        position: fixed;
-        top: 325px;
-        right: 275;
-        font-size: 12px;
-    }
 }
 
-@media screen and (max-width:375px) { /*----smartphone portrat----*/
+@media screen and (min-width:375px) { /*----smartphone portrat----*/
     #saida {
         text-align: center;
         color: rgb(251, 255, 0);
@@ -74,13 +67,6 @@ form ul {
         font-size: 30px;
     }
     
-    .cop {
-
-        color: rgba(78, 84, 97, 0.822);
-        position: fixed;
-        top: 325px;
-        right: 130px;
-    }
 }
 
 @media screen and (min-width:1280px) {  /*---------pc---------*/
@@ -89,15 +75,6 @@ form ul {
         margin-top: 15px;
         color: rgb(238, 255, 0);
         font-size: 30px;
-    }
-    
-    .cop {
-        flex: auto;
-        color: rgba(78, 84, 97, 0.822);
-        position: fixed;
-        top: 320px;
-        right: 624;
-        font-size: 12px;
     }
 }
 
